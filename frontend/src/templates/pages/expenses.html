@@ -1,0 +1,29 @@
+<div class="main-content">
+    <div class="main-content-title">Расходы</div>
+    <div class="fin-items container text-center">
+        <div class="container">
+            <div class="row row-cols-3" id="expense-item">
+
+                <a href="/creating-category-expenses" class="fin-item creat-item col" id="create-new-category-expense">
+                    <button class="creat-item-button">+</button>
+                </a>
+
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        Вы действительно хотите удалить категорию?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success delete-btn" style="font-size: 14px" id="delete-expense-category">Да, удалить</button>
+                        <button type="button" class="btn btn-danger" style="font-size: 14px" data-bs-dismiss="modal">
+                            Не удалять
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

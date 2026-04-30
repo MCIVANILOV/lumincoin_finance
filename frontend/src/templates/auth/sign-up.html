@@ -1,0 +1,110 @@
+<div class="bg-light py-3 py-md-5">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6">
+                <div class="bg-white p-4 p-md-5 main-sign-up-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <a href="/" id="logo">
+                                    <img src="../static/images/logo.svg" alt="Lumincoin Logo" width="171"
+                                         height="70" style="margin-bottom: 60px">
+                                </a>
+                                <div class="main-content-title sign-up-main-title" style="margin-bottom: 20px;">Создайте
+                                    аккаунт
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="register-form">
+                        <div class="row gy-3 gy-md-4 overflow-hidden d-flex justify-content-center">
+                            <div class="error invalid-feedback text-center mb-3" id="commonError">Не удалось зарегистрировать
+                                пользователя. Обратитесь в поддержку
+                            </div>
+                            <div class="col-9">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path
+                                        fill="#6c757d"
+                                        d="M240 192C240 147.8 275.8 112 320 112C364.2 112 400 147.8 400 192C400 236.2 364.2 272 320 272C275.8 272 240 236.2 240 192zM448 192C448 121.3 390.7 64 320 64C249.3 64 192 121.3 192 192C192 262.7 249.3 320 320 320C390.7 320 448 262.7 448 192zM144 544C144 473.3 201.3 416 272 416L368 416C438.7 416 496 473.3 496 544L496 552C496 565.3 506.7 576 520 576C533.3 576 544 565.3 544 552L544 544C544 446.8 465.2 368 368 368L272 368C174.8 368 96 446.8 96 544L96 552C96 565.3 106.7 576 120 576C133.3 576 144 565.3 144 552L144 544z"/></svg>
+                                    </span>
+                                    <input type="text" class="form-control" name="first-name" id="first-name"
+                                           placeholder="Имя">
+                                    <span id="first-name-error" class="error invalid-feedback">Введите корректное имя - может содержать русские буквы и пробелы, начинается с большой буквы</span>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path
+                                        fill="#6c757d"
+                                        d="M240 192C240 147.8 275.8 112 320 112C364.2 112 400 147.8 400 192C400 236.2 364.2 272 320 272C275.8 272 240 236.2 240 192zM448 192C448 121.3 390.7 64 320 64C249.3 64 192 121.3 192 192C192 262.7 249.3 320 320 320C390.7 320 448 262.7 448 192zM144 544C144 473.3 201.3 416 272 416L368 416C438.7 416 496 473.3 496 544L496 552C496 565.3 506.7 576 520 576C533.3 576 544 565.3 544 552L544 544C544 446.8 465.2 368 368 368L272 368C174.8 368 96 446.8 96 544L96 552C96 565.3 106.7 576 120 576C133.3 576 144 565.3 144 552L144 544z"/></svg>
+                                    </span>
+                                    <input type="text" class="form-control" name="lastname" id="last-name"
+                                           placeholder="Фамилия">
+                                    <span id="last-name-error" class="error invalid-feedback">Введите корректную фамилию - может содержать русские буквы и пробелы, начинается с большой буквы</span>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                           class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                      </svg>
+                                    </span>
+                                    <input type="email" class="form-control" name="email" id="email"
+                                           placeholder="Электронная почта">
+                                    <span id="email-error" class="error invalid-feedback">Введите корректный email</span>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-key"
+                                            viewBox="0 0 16 16">
+                                        <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
+                                        <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                      </svg>
+                                    </span>
+                                    <input type="password" class="form-control" name="password" id="password"
+                                           placeholder="Пароль">
+                                    <span id="password-error" class="error invalid-feedback">Введите корректный пароль - должен быть не менее 8 символов, содержать как минимум 1 букву в верхнем регистре и как минимум 1 цифру</span>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-key"
+                                           viewBox="0 0 16 16">
+                                        <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
+                                        <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                      </svg>
+                                    </span>
+                                    <input type="password" class="form-control" name="password-repeat"
+                                           id="password-repeat"
+                                           placeholder="Подтверждение пароля">
+                                    <span id="password-repeat-error" class="error invalid-feedback">Пароли должны совпадать</span>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-lg button" type="submit" style="font-size: 15px"
+                                            id="signUp">Войти
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-8" style="font-family: Roboto-Regular, sans-serif; font-size: 12px">
+                            <p class="text-center" style="color: #0c0600">Уже есть аккаунт?
+                                <a href="/login" class="link-primary text-decoration-none ms-1">Войдите в систему</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

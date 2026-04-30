@@ -1,0 +1,23 @@
+<div class="main-content">
+    <div class="main-content-title">Редактирование дохода / расхода</div>
+    <div class="field-creating-category d-flex flex-column">
+        <select name="type" id="type-select" class="creating-select-field" style="color: #000000">
+            <option value="">Тип...</option>
+            <option value="income" selected>Доходы</option>
+            <option value="expense">Расходы</option>
+        </select>
+        <select name="category" id="category-select" class="creating-select-field" style="color: #000000">
+            <option value="">Категория...</option>
+        </select>
+        <input type="text" value="" class="form-control" placeholder="Сумма в $..." id="sumInput">
+        <span id="sumInput-error" class="error invalid-feedback">Заполните поле</span>
+        <input type="text" value="" class="form-control" placeholder="Дата..." id="dateInput">
+        <span id="dateInput-error" class="error invalid-feedback">Заполните поле</span>
+        <input type="text" value="" class="form-control" placeholder="Комментарий..." id="commentInput">
+        <span id="commentInput-error" class="error invalid-feedback">Заполните поле</span>
+    </div>
+    <div class="creating-category-buttons">
+        <button type="button" class="btn btn-success me-1" style="font-size: 14px" id="editing-expenses-incomes">Сохранить</button>
+        <button type="button" class="btn btn-danger" style="font-size: 14px" id="cancel-editing-expenses-incomes">Отмена</button>
+    </div>
+</div>

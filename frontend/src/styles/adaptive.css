@@ -1,0 +1,192 @@
+@media (max-width: 1495px) {
+    .main-content-filters {
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .main-content-charts {
+        margin: auto;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-content-chart-1 {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-content-chart-2 {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1060px) {
+    .edit-buttons {
+        display: flex;
+    }
+}
+
+@media (max-width: 780px) {
+    aside {
+        position: absolute;
+    }
+
+    .toggle-wrap {
+        display: block;
+    }
+}
+
+@media (max-width: 730px) {
+    .creating-main-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 615px) {
+    .main-incomes-expenses {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .custom-filter {
+        width: 200px;
+    }
+
+    .custom-filter > input:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .custom-filter > span:nth-child(1) {
+        margin-right: 25px;
+    }
+
+    .operations-table {
+        width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-main-title {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .sign-up-main-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .creating-main-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 516px) {
+    .creat-item {
+        padding: 0;
+        height: 137px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 501px) {
+    .field-creating-category > select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .field-creating-category > input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .creat-item {
+        height: 176px;
+    }
+
+    .fin-item-buttons > button {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .main-content-charts {
+        width: 300px;
+    }
+
+    .main-content-chart-1 {
+        width: 300px;
+    }
+
+    .main-content-chart-2 {
+        width: 300px;
+    }
+
+    .creat-item {
+        height: 152px;
+    }
+}
+
+@media (max-width: 410px) {
+    .main-sign-up-content {
+        padding: 0 !important;
+    }
+
+    .sign-up-main-title {
+        font-size: 30px;
+    }
+
+    .login-main-title {
+        font-size: 20px;
+    }
+
+    .input-group > input::placeholder {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 402px) {
+    .creat-item {
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .sign-up-main-title {
+        font-size: 20px;
+    }
+
+    .edit-category-main-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 335px) {
+    .fin-item-buttons > button {
+        margin-top: 15px;
+    }
+
+    .creat-item {
+        height: 176px;
+    }
+}

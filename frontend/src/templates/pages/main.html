@@ -1,0 +1,33 @@
+<div class="main-content">
+    <div class="container">
+        <div class="main-content-title main-title">Главная</div>
+        <div class="main-content-filters d-flex flex-wrap align-items-center main-filters">
+            <button type="button" data-period="today" class="my-active-btn active">Сегодня</button>
+            <button type="button" data-period="week">Неделя</button>
+            <button type="button" data-period="month">Месяц</button>
+            <button type="button" data-period="year">Год</button>
+            <button type="button" data-period="all">Все</button>
+            <button type="button" data-period="interval">Интервал</button>
+            <div class="custom-filter">
+                <span>с</span>
+                <input id="date-from" type="date">
+                <span>по</span>
+                <input id="date-to" type="date">
+                <button id="apply-interval" type="button">Применить</button>
+            </div>
+        </div>
+        <div class="main-content-charts d-flex mt-5 justify-content-center">
+            <div class="main-content-chart-1">
+                <div class="main-content-chart-title main-subtitle">Доходы</div>
+                    <canvas id="myChart"></canvas>
+            </div>
+            <div class="vr mx-5"></div>
+            <div class="main-content-chart-2">
+                <div class="main-content-chart-title main-subtitle">Расходы</div>
+                <div>
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

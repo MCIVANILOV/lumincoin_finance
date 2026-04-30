@@ -1,0 +1,57 @@
+<div class="main-content main-incomes-expenses">
+    <div class="main-content-title">Доходы и расходы</div>
+    <div class="creating-buttons">
+        <a href="/creating-expenses-incomes" class="btn btn-success me-1" style="font-size: 14px" id="buttonIncome">Создать доход</a>
+        <a href="/creating-expenses-incomes" class="btn btn-danger" style="font-size: 14px" id="buttonExpense">Создать расход</a>
+    </div>
+    <div class="main-content-filters d-flex flex-wrap align-items-center expenses-incomes-filters">
+        <button type="button" data-period="today" class="my-active-btn active">Сегодня</button>
+        <button type="button" data-period="week">Неделя</button>
+        <button type="button" data-period="month">Месяц</button>
+        <button type="button" data-period="year">Год</button>
+        <button type="button" data-period="all">Все</button>
+        <button type="button" data-period="interval">Интервал</button>
+        <div class="custom-filter">
+            <span>с</span>
+            <input id="date-from" type="date">
+            <span>по</span>
+            <input id="date-to" type="date">
+            <button id="apply-interval" type="button">Применить</button>
+        </div>
+    </div>
+    <div class="operations-table">
+        <table class="table border-top text-center"
+               style="font-family: Roboto-Regular, sans-serif; font-size: 14px">
+            <thead style="color: #052C65;">
+            <tr>
+                <th scope="col">№ операции</th>
+                <th scope="col">Тип</th>
+                <th scope="col">Категория</th>
+                <th scope="col">Сумма</th>
+                <th scope="col">Дата</th>
+                <th scope="col">Комментарий</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody style="color: black;" id="records">
+
+            </tbody>
+        </table>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        Вы действительно хотите удалить операцию?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success delete-btn" style="font-size: 14px" id="delete-operation-button">Да, удалить</button>
+                        <button type="button" class="btn btn-danger" style="font-size: 14px"
+                                data-bs-dismiss="modal">Не удалять
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
