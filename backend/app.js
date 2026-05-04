@@ -31,7 +31,7 @@ if (!mongoUri) {
 
 mongoose.connect(mongoUri, {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
     console.log('MongoDB connected');
-    app.listen(port, () => console.log('Server started on port '${port}))
+    app.listen(port, () => console.log(`Server started on port ${port}`))
 
 }).catch(err => {
     console.error('MongoDB connection error:', err);
