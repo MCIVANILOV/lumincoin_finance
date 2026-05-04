@@ -7,6 +7,8 @@ const incomeCategoriesRoutes = require('./routes/category-income.routes');
 const operationsRoutes = require('./routes/operation.routes');
 const balanceRoutes = require('./routes/balance.routes');
 
+mongoose.set('strictQuery', false);
+
 const app = express();
 
 app.use(express.json());
