@@ -1,13 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const path = require('path'); require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 const authRoutes = require('./routes/auth.routes');
 const expenseCategoriesRoutes = require('./routes/category-expense.routes');
 const incomeCategoriesRoutes = require('./routes/category-income.routes');
 const operationsRoutes = require('./routes/operation.routes');
 const balanceRoutes = require('./routes/balance.routes');
-
-mongoose.set('strictQuery', false);
 
 const app = express();
 
